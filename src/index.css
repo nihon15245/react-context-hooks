@@ -1,0 +1,19 @@
+.App {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    padding: 10px 20px;
+    background-color: #c3c5c7;
+}
+
+.book-list {
+    margin-top: 20px;
+}
+
+.book-list li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc !important;
+}
