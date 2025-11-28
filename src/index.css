@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b5b5b5;
+    margin: 0;
+    padding: 0;
+}
+
 .App {
     max-width: 750px;
     margin: 0 auto;
@@ -9,6 +16,11 @@
     background-color: #c3c5c7;
 }
 
+.navbar-brand {
+    margin: 0;
+    font-size: 25px;
+}
+
 .book-list {
     margin-top: 20px;
 }
@@ -16,4 +28,11 @@
 .book-list li {
     margin-bottom: 10px;
     border: 1px solid #ccc !important;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+.list-group-item p {
+    font-size: 13px;
+    font-family: italic;
 }
